@@ -1,0 +1,30 @@
+{
+  "name": "@ismart/apollo-server-vercel",
+  "version": "1.0.0",
+  "description": "Apollo Server integration for Vercel Serverless functions",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "exit 0",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iSmart-Digital/apollo-server-vercel.git"
+  },
+  "author": "Tijs Proost (iSmart)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iSmart-Digital/apollo-server-vercel/issues"
+  },
+  "homepage": "https://github.com/iSmart-Digital/apollo-server-vercel#readme",
+  "dependencies": {
+    "accepts": "^1.3.8",
+    "apollo-server-core": "^3.6.3",
+    "cors": "^2.8.5",
+    "next": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/accepts": "^1.3.5",
+    "@types/cors": "^2.8.12"
+  }
+}
