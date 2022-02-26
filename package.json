@@ -1,5 +1,5 @@
 {
-  "name": "@ismart/apollo-server-vercel",
+  "name": "@ismart-digital/apollo-server-vercel",
   "version": "1.0.0",
   "description": "Apollo Server integration for Vercel Serverless functions",
   "main": "dist/index.js",
@@ -21,7 +21,8 @@
     "accepts": "^1.3.8",
     "apollo-server-core": "^3.6.3",
     "cors": "^2.8.5",
-    "next": "^12.1.0"
+    "next": "^12.1.0",
+    "typescript": "^4.5.5"
   },
   "devDependencies": {
     "@types/accepts": "^1.3.5",
