@@ -1,6 +1,6 @@
 {
   "name": "@ismart-digital/apollo-server-vercel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Apollo Server integration for Vercel Serverless functions",
   "main": "dist/index.js",
   "scripts": {
