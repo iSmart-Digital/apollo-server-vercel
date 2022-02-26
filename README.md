@@ -8,7 +8,7 @@ The easiest way to deploy an Apollo GraphQL API to Vercel Serverless functions u
 import { typeDefs, Query, Mutation, Models, createContext } from './graphql';
 import { makeExecutableSchema } from "@graphql-tools/schema";
 import { merge } from "lodash";
-import { ApolloServer, VercelContext } from "apollo-server-vercel";
+import { ApolloServer, VercelContext } from "@ismart-digital/apollo-server-vercel";
 
 let schema = makeExecutableSchema({
     typeDefs: [
